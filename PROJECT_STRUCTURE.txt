@@ -1,0 +1,36 @@
+server/
+  index.js
+  routes/
+    validate.js
+    merge.js
+  services/
+    imageService.js
+    videoService.js
+    mergeService.js
+  utils/
+    entities.js
+    formatting.js
+  data/
+    news-data.json (existing dataset)
+    prompt2.md
+client/
+  index.html
+  package.json
+  src/
+    main.jsx
+    App.jsx
+    api.js
+    components/
+      ArticleEditor.jsx
+      ArticleForm.jsx
+      MediaValidator.jsx
+      Preview.jsx
+      Dashboard.jsx
+      ThemeEditor.jsx
+    styles/
+      index.css
+  vite.config.js
+tailwind.config.js
+package.json
+README.md
+.env.example
